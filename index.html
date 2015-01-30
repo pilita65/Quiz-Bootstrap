@@ -1,132 +1,147 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="bootstrap-3.3.2-dist/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="bootstrap-3.3.2-dist/assets/css/main.css">
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
 
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.2-dist/assets/css/main.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
 
 		<div class="row">
 
-		<div class="col-sm-1 col-md-6">
-			<nav class="navbar navbar-default">
-			    <div class="container-fluid">
-			   		<!-- Brand and toggle get grouped for better mobile display -->
-			    	<div class="navbar-header">
-			      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target	="#bs-example-navbar-collapse-1">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				    </button>
-				    <a class="navbar-brand" href="#">Brand</a>
+			<div class="col-sm-1 col-md-6 barMargin">
+				<!-- <nav class="navbar navbar-default">
+				    <div class="container-fluid">
+				    	<div class="navbar-header">
+				      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target	="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					    </button>
+					    <a class="navbar-brand" href="#">Brand</a>
+						</div>
+					
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						    <ul class="nav navbar-nav">
+						        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+						        <li><a href="#">Link</a></li>
+						        <li class="dropdown">
+							        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+							        <ul class="dropdown-menu" role="menu">
+							            <li><a href="#">Action</a></li>
+							            <li><a href="#">Another action</a></li>
+							            <li><a href="#">Something else here</a></li>
+							            <li class="divider"></li>
+							            <li><a href="#">Separated link</a></li>
+							            <li class="divider"></li>
+							            <li><a href="#">One more separated link</a></li>
+							        </ul>
+						        </li>
+						    </ul>
+						</div>
 					</div>
-				
-					<!-- Collect the nav links, forms, and other content for toggling -->
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					    <ul class="nav navbar-nav">
-					        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-					        <li><a href="#">Link</a></li>
-					        <li class="dropdown">
-					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-					          <ul class="dropdown-menu" role="menu">
-					            <li><a href="#">Action</a></li>
-					            <li><a href="#">Another action</a></li>
-					            <li><a href="#">Something else here</a></li>
-					            <li class="divider"></li>
-					            <li><a href="#">Separated link</a></li>
-					            <li class="divider"></li>
-					            <li><a href="#">One more separated link</a></li>
-					          </ul>
-					        </li>
-					    </ul>
-					</div>
-				</div>
-			</nav>	
-    	</div>
-		
-		<div class="col-sm-1 col-md-6">
-			<ul class="list-group">
-  				<li class="list-group-item list-group-item-success">Sponsors</li>		
-			</ul>
-  		</div>
+				</nav> -->	
 
-		<div class="col-sm-1 col-md-6 barMargin">
-			<div class="progress">
-				<div class="progress-bar progress-bar-success" style="width: 35%">
-			    	<span class="sr-only">35% Complete (success)</span>
-			  	</div>
-			  	<div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%">
-			    	<span class="sr-only">20% Complete (warning)</span>
-			  	</div>
-			  	<div class="progress-bar progress-bar-danger" style="width: 10%">
-			    	<span class="sr-only">10% Complete (danger)</span>
-			  	</div>
-			</div>
-		</div>
-
-		
-		<div class="col-sm-1 col-md-6 barMargin">
-			<div class="progress">
-				<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-				    60%
-				</div>
-            </div>
-		</div>
-		
-		<div class="col-sm-1 col-md-6">
-			<ol class="breadcrumb">
-			  <li><a href="#">Home</a></li>
-			  <li><a href="#">Library</a></li>
-			  <li class="active">Data</li>
-			</ol>
-		</div>
-
-		<div class="col-sm-1 col-md-6">
-				<div class="input-group">
-			  <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
-			  <span class="input-group-addon" id="basic-addon2">@example.com</span>
-			</div>
-		</div>
-
-		<div class="col-sm-1 col-md-6">
-			<nav>
-				<ul class="pagination">
-				    <li>
-				      <a href="#" aria-label="Previous">
-				        <span aria-hidden="true">&laquo;</span>
-				      </a>
-				    </li>
-				    <li><a href="#">1</a></li>
-				    <li><a href="#">2</a></li>
-				    <li><a href="#">3</a></li>
-				    <li><a href="#">4</a></li>
-				    <li><a href="#">5</a></li>
-				    <li>
-				      <a href="#" aria-label="Next">
-				        <span aria-hidden="true">&raquo;</span>
-				      </a>
-				    </li>
+				<ul class="nav nav-pills navbar-inverse">
+				  	<li><a class="navbar-brand" href="#">Brand</a></li>
+				  	<li><a class="navbar-brand" href="#">Info</a></li>
+				  	<li><a class="navbar-brand" href="#">Buy</a></li>
+				    <li role="presentation" class="dropdown">
+				    	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+				      	Dropdown <span class="caret"></span>
+				    	</a>
+				    	<ul class="dropdown-menu navbar-inverse" role="menu">
+				      		<li><a class="navbar-brand" href="#">Brand</a></li>
+						  	<li><a class="navbar-brand" href="#">Info</a></li>
+						  	<li><a class="navbar-brand" href="#">Buy</a></li>
+				    	</ul>
+				  	</li>
 				</ul>
-			</nav>
-		</div>
 
-		<div class="col-sm-1 col-md-6">
-			<nav>
-			  <ul class="pager">
-			    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
-			    <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
-			  </ul>
-			</nav>
+	    	</div>
+			
+			<div class="col-sm-1 col-md-6 barMargin">
+				<ul class="list-group">
+	  				<li class="list-group-item list-group-item-success">Sponsors</li>		
+				</ul>
+	  		</div>
+
+			<div class="col-sm-1 col-md-6 barMargin">
+				<div class="progress">
+					<div class="progress-bar progress-bar-success" style="width: 35%">
+				    	<span class="sr-only">35% Complete (success)</span>
+				  	</div>
+				  	<div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 20%">
+				    	<span class="sr-only">20% Complete (warning)</span>
+				  	</div>
+				  	<div class="progress-bar progress-bar-danger" style="width: 10%">
+				    	<span class="sr-only">10% Complete (danger)</span>
+				  	</div>
+				</div>
+			</div>
+
+			
+			<div class="col-sm-1 col-md-6 barMargin">
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+					    60%
+					</div>
+	            </div>
+			</div>
+			
+			<div class="col-sm-1 col-md-6 barMargin">
+				<ol class="breadcrumb">
+				   <li><a href="#">Home</a></li>
+				   <li><a href="#">Library</a></li>
+				   <li class="active">Data</li>
+				</ol>
+			</div>
+
+			<div class="col-sm-1 col-md-6 barMargin">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+					<span class="input-group-addon" id="basic-addon2">@example.com</span>
+				</div>
+			</div>
+
+			<div class="col-sm-1 col-md-6 barMargin">
+				<nav>
+					<ul class="pagination">
+					    <li>
+					      <a href="#" aria-label="Previous">
+					        <span aria-hidden="true">&laquo;</span>
+					      </a>
+					    </li>
+					    <li><a href="#">1</a></li>
+					    <li><a href="#">2</a></li>
+					    <li><a href="#">3</a></li>
+					    <li><a href="#">4</a></li>
+					    <li><a href="#">5</a></li>
+					    <li>
+					      <a href="#" aria-label="Next">
+					        <span aria-hidden="true">&raquo;</span>
+					      </a>
+					    </li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="col-sm-1 col-md-6 barMargin">
+				<nav>
+				    <ul class="pager">
+				    	<li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+				    	<li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+				    </ul>
+				</nav>
+			</div>
+			
 		</div>
-		
 	</div>
-</div>
 
 </body>
 </html>
